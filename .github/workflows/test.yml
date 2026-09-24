@@ -33,5 +33,5 @@ jobs:
           --environment-id "2b550ab2-ce4e-47b6-a55f-8a3841a01675"
           --module-name "Financials"
           --sub-module "General Ledger"
-          --task-files "FUN_MANAGE_BUSINESS_UNIT"
+          --task-files "FND_CREATE_IMPLEMENTATION_USERS"
           --reporter-id "eb38792e-3180-41ea-ac00-017646064392"
