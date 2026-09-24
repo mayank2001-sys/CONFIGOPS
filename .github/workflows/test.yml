@@ -25,8 +25,8 @@ jobs:
           --apikey "${{ secrets.OPKEY_API_KEY }}"
           --project "jira_configops"
           --module devopstask
-          --command createExportConfigurationTask
-          --task-name "ExportConfigurations_2026_09_24 13_01_16_018"
+          --command createApplyconfigurationTask
+          --task-name "ApplyConfigurations_2026_09_24 13_03_07_893"
           --agent-id "f2f70233-4374-4157-9d44-72df4f0c4216"
           --requirement-id "00000000-0000-0000-0000-000000000000"
           --parent-id "00000000-0000-0000-0000-000000000000"
