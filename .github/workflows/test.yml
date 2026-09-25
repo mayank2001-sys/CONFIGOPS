@@ -20,18 +20,18 @@ jobs:
       - name: Run OpKey Task
         run: >
           java -jar "OpKeyCLI-0.6-jar-with-dependencies.jar"
-          --hostname "https://qa1.perf-eks.opkeyone.com/"
+          --hostname "https://qaprod.us-eks.opkeyone.com/"
           --username "${{ secrets.OPKEY_USERNAME }}"
           --apikey "${{ secrets.OPKEY_API_KEY }}"
-          --project "jira_configops"
+          --project "newproject19/9"
           --module devopstask
           --command createApplyconfigurationTask
-          --task-name "ApplyConfigurations_2026_09_24 13_03_07_893"
-          --agent-id "f2f70233-4374-4157-9d44-72df4f0c4216"
+          --task-name "ApplyConfigurations_2026_09_25 17_59_18_518"
+          --agent-id "dc85ff43-17d9-4375-bec6-a4f78bd599e4"
           --requirement-id "00000000-0000-0000-0000-000000000000"
           --parent-id "00000000-0000-0000-0000-000000000000"
-          --environment-id "2b550ab2-ce4e-47b6-a55f-8a3841a01675"
+          --environment-id "cdda5293-4eaa-4ba6-97fb-e5607ad8fd56"
           --module-name "Financials"
           --sub-module "General Ledger"
-          --task-files "FND_CREATE_IMPLEMENTATION_USERS"
-          --reporter-id "b886d8d6-a934-4a82-9d58-f24e4b468862"
+          --task-files "XLE_MANAGE_LEGAL_ENTITY"
+          --reporter-id "eb38792e-3180-41ea-ac00-017646064392"
