@@ -21,8 +21,8 @@ jobs:
         run: >
           java -jar "OpKeyCLI-0.6-jar-with-dependencies.jar"
           --hostname "https://qa1.perf-eks.opkeyone.com/"
-          --username "mayank@opkey.com"
-          --apikey "WKVAA81VOKNBL3OIJX"
+          --username "${{ secrets.OPKEY_USERNAME }}"
+          --apikey "${{ secrets.OPKEY_API_KEY }}"
           --project "jira_configops"
           --module devopstask
           --command createExportConfigurationTask
