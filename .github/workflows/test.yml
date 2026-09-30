@@ -23,14 +23,14 @@ jobs:
           --hostname "https://qa1.perf-eks.opkeyone.com/"
           --username "${{ secrets.OPKEY_USERNAME }}"
           --apikey "${{ secrets.OPKEY_API_KEY }}"
-          --project "Jiira_configops2"
+          --project "jira_configops"
           --module devopstask
           --command createExportConfigurationTask
-          --task-name "ExportConfigurations_2026_09_30 16_32_12_787"
+          --task-name "ExportConfigurations_2026_09_30 16_39_53_051"
           --agent-id "00000000-0000-0000-0000-000000000000"
           --requirement-id "00000000-0000-0000-0000-000000000000"
           --parent-id "00000000-0000-0000-0000-000000000000"
-          --environment-id "6b3f3acc-80ea-495d-9200-f7633b34ce83"
+          --environment-id "3e128f9b-7f8f-4166-9759-4c088f88b903"
           --module-name "Financials"
           --sub-module "General Ledger"
           --task-files "FUN_MANAGE_BUSINESS_UNIT"
