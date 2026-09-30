@@ -21,16 +21,16 @@ jobs:
         run: >
           java -jar "OpKeyCLI-0.6-jar-with-dependencies.jar"
           --hostname "https://qa1.perf-eks.opkeyone.com/"
-          --username "${{ secrets.OPKEY_USERNAME }}"
-          --apikey "${{ secrets.OPKEY_API_KEY }}"
-          --project "Configops_"
+          --username "mayank@opkey.com"
+          --apikey "WKVAA81VOKNBL3OIJX"
+          --project "jira_configops"
           --module devopstask
           --command createExportConfigurationTask
-          --task-name "ExportConfigurations_2026_09_29 12_17_51_540"
-          --agent-id "00000000-0000-0000-0000-000000000000"
+          --task-name "ExportConfigurations_2026_09_30 15_52_03_02"
+          --agent-id "f2f70233-4374-4157-9d44-72df4f0c4216"
           --requirement-id "00000000-0000-0000-0000-000000000000"
           --parent-id "00000000-0000-0000-0000-000000000000"
-          --environment-id "2eecf808-696b-401e-a52c-67a0f92cb82f"
+          --environment-id "3e128f9b-7f8f-4166-9759-4c088f88b903"
           --module-name "Financials"
           --sub-module "General Ledger"
           --task-files "FUN_MANAGE_BUSINESS_UNIT"
