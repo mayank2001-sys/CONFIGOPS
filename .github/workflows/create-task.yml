@@ -17,7 +17,7 @@ jobs:
           distribution: temurin
           java-version: '17'
 
-      - name: Run OpKey Task3
+      - name: Run OpKey Task
         run: >
           java -jar "OpKeyCLI-0.6-jar-with-dependencies.jar"
           --hostname "https://qa1.perf-eks.opkeyone.com/"
@@ -26,7 +26,7 @@ jobs:
           --project "jira_configops"
           --module devopstask
           --command createApplyconfigurationTask
-          --task-name "ApplyConfigurations_2026_10_12 18_32_50_960jhgh"
+          --task-name "ApplyConfigurations_2026_10_13 17_49_38_100"
           --agent-id "00000000-0000-0000-0000-000000000000"
           --requirement-id "00000000-0000-0000-0000-000000000000"
           --parent-id "00000000-0000-0000-0000-000000000000"
@@ -35,4 +35,4 @@ jobs:
           --sub-module "General Ledger"
           --task-files "FND_CREATE_IMPLEMENTATION_USERS"
           --reporter-id "b5b5ec62-5e61-4a76-a9e2-e22b525b0f51"
-          --workbook-path "configops-workbooks/Create Implementation Users (18).xlsx"
+          --workbook-path "configops-workbooks/Create Implementation Users (19).xlsx"
