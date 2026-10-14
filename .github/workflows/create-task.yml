@@ -25,14 +25,13 @@ jobs:
           --apikey "${{ secrets.OPKEY_API_KEY }}"
           --project "jira_configops"
           --module devopstask
-          --command createApplyconfigurationTask
-          --task-name "ApplyConfigurations_2026_10_13 17_49_38_100"
+          --command createExportConfigurationTask
+          --task-name "ExportConfigurations_2026_10_14 13_06_42_476"
           --agent-id "00000000-0000-0000-0000-000000000000"
           --requirement-id "00000000-0000-0000-0000-000000000000"
           --parent-id "00000000-0000-0000-0000-000000000000"
           --environment-id "7b22312f-99fa-4ffc-9a68-a04f45c9af89"
           --module-name "Financials"
           --sub-module "General Ledger"
-          --task-files "FND_CREATE_IMPLEMENTATION_USERS"
+          --task-files "FUN_MANAGE_BUSINESS_UNIT"
           --reporter-id "b5b5ec62-5e61-4a76-a9e2-e22b525b0f51"
-          --workbook-path "configops-workbooks/Create Implementation Users (19).xlsx"
